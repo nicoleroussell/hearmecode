@@ -1,4 +1,12 @@
-
+Python 2.7.8 (default, Jun 30 2014, 16:08:48) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> for bottles in range(99,0,-1)
+SyntaxError: invalid syntax
+>>> for bottles in range (99, 0, -1):
+	print "{0} bottles of beer on the wall, {0} bottles of beer...\nTake one down, pass it around, {1} bottles of beer on the wall".format(bottles, bottles-1)
+	elif bottles == 1:
+		
+SyntaxError: invalid syntax
 >>> for bottles in range (99, 0, -1):
 	if bottles == 1:
 		print "{0} bottles of beer on the wall, {0} bottles of beer...\nTake one down, pass it around, {1} bottle of beer on the wall".format(bottles, bottles-1)
