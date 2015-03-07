@@ -1,4 +1,43 @@
+Python 2.7.8 (default, Jun 30 2014, 16:08:48) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> bread = 10
+>>> pb=10
+>>> jelly=4
+>>> sandwich=1
+>>> while bread >= 2 and pb>=1 and jelly>=1:
+	print "I'm making sandwich #{0}.".format(sandwich)
+	bread = bread -2
+	pb = pb-1
+	jelly = jelly-1
+	sandwich = sandwich+1
 
+	
+I'm making sandwich #1.
+I'm making sandwich #2.
+I'm making sandwich #3.
+I'm making sandwich #4.
+>>> bread=10
+>>> pb=10
+>>> jelly=4
+>>> sandwich=1
+>>> while bread >=2 and pb>=1 and jelly >=1:
+	print "i'm making sandwich #{0}.format(sandwich)
+	
+SyntaxError: EOL while scanning string literal
+>>> while bread >=2 and pb>=1 and jelly >=1:
+	print "i'm making sandwich #{0}.".format(sandwich)
+		sandwiches-worthofbread=bread/2
+		
+  File "<pyshell#18>", line 3
+    sandwiches-worthofbread=bread/2
+    ^
+IndentationError: unexpected indent
+>>> while bread >=2 and pb>=1 and jelly >=1:
+	print "i'm making sandwich #{0}.".format(sandwich)
+	sandwichesworthofbread=bread/2
+	print "i have sandwiches-worthofbread=bread/2
+	
+SyntaxError: EOL while scanning string literal
 >>> 
 >>> bread=10
 >>> pb=10
